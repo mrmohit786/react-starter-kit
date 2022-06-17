@@ -1,0 +1,7 @@
+// If you are using Babel and React 17, you might need to add "runtime": "automatic" to config.
+{
+	"presets": [
+		["@babel/preset-env"],
+		["@babel/preset-react", { "runtime": "automatic" }]
+	]
+}
