@@ -9,7 +9,9 @@
 		"build:prod": "webpack --mode=production --node-env=production",
 		"lint": "eslint --ext .js --ext .jsx src",
 		"pretty-quick": "pretty-quick --staged --ignore-path .gitignore",
-		"test": "jest"
+		"test": "jest",
+		"pre-commit": "pretty-quick --staged --ignore-path .gitignore",
+		"pre-push": "jest"
 	},
 	"keywords": [
 		"Webpack",
